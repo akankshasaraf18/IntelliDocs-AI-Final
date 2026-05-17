@@ -72,7 +72,7 @@ cp .env.example .env
 
 # Start development server
 npm run dev
-# Server runs on http://localhost:5000
+# Server runs on http://https://intellidocs-backend-zn1j.onrender.com
 ```
 
 ### 3. Frontend Setup
@@ -90,7 +90,7 @@ cp .env.example .env
 # - VITE_AUTH0_DOMAIN=your_auth0_domain
 # - VITE_AUTH0_CLIENT_ID=your_auth0_client_id
 # - VITE_AUTH0_CALLBACK_URL=http://localhost:5173
-# - VITE_API_BASE_URL=http://localhost:5000
+# - VITE_API_BASE_URL=http://https://intellidocs-backend-zn1j.onrender.com
 
 # Start development server
 npm run dev
@@ -100,7 +100,7 @@ npm run dev
 ### 4. Verify Local Setup
 
 - [ ] Frontend loads at http://localhost:5173
-- [ ] Backend responds at http://localhost:5000/health
+- [ ] Backend responds at http://https://intellidocs-backend-zn1j.onrender.com/health
 - [ ] Auth0 login works
 - [ ] Can upload documents
 - [ ] Document analysis features work

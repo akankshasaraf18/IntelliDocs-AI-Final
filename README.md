@@ -102,7 +102,7 @@ npm start
 Backend runs on:
 
 ```bash
-http://localhost:5000
+http://https://intellidocs-backend-zn1j.onrender.com
 ```
 
 ---
